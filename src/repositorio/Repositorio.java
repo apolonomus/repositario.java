@@ -16,6 +16,7 @@ public class Repositorio {
      */
     public static void main(String[] args) {
         System.out.print("Hola primer repositorio");
+        System.out.print("Hola estoy  viendo como actualizar el repo ");
         // TODO code application logic here
     }
     
