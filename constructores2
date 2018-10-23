@@ -1,0 +1,116 @@
+package constructores.objeto;
+
+//Fuente: http://www.ojocritico.com/series/saint-seiya-los-12-caballeros-de-oro/
+
+public class ConstructoresObjeto {
+int casa;
+String nombre;
+String armadura;
+String habilidad;
+String zodiaco;
+
+//Constructor Sin Parametros
+public ConstructoresObjeto () {
+}
+//Constructor con parámetros
+public ConstructoresObjeto (int casa, String nombre, String armadura, String habilidad, String zodiaco){
+// Se agrega en el constructor this para hacer mención a la clase Constructotres Objeto
+this.casa = casa;
+this.nombre = nombre;
+this.armadura = armadura;
+this.habilidad = habilidad;
+this.zodiaco = zodiaco;
+}
+
+    public static void main(String[] args) {
+// Como Agregar un usuario en consola 
+ConstructoresObjeto z1 = new ConstructoresObjeto ();
+ConstructoresObjeto z2 = new ConstructoresObjeto (1,"Mu","Oro","Muro de Cristal / Extinción de las Estrellas / Revolución del Polvo","Aries");
+ConstructoresObjeto z3 = new ConstructoresObjeto (2,"Aldebarán","Oro","Gran Cuerno","Tauro");
+ConstructoresObjeto z4 = new ConstructoresObjeto (3,"Saga","Oro","Explosión Galáctica","Géminis");
+ConstructoresObjeto z5 = new ConstructoresObjeto (4,"Yomotsu Hirasaka","Oro","Ondas de Hades","Cáncer");
+ConstructoresObjeto z6 = new ConstructoresObjeto (5,"Aioria","Oro","Relámpago de Voltaje","Leo");
+ConstructoresObjeto z7 = new ConstructoresObjeto (6,"Shaka","Oro","Capitulación del Demonio / Caída de los 6 Inframundos / El Tesoro del Cielo","Virgo");
+ConstructoresObjeto z8 = new ConstructoresObjeto (7,"Dohko","Oro","Dragón Ascendente de Rozan","Libra");
+ConstructoresObjeto z9 = new ConstructoresObjeto (8,"Milo","Oro","Aguja Escarlata","Escorpio");
+ConstructoresObjeto z10 = new ConstructoresObjeto (9,"Aiorios","Oro","Relámpago Atómico","Sagitario");
+ConstructoresObjeto z11 = new ConstructoresObjeto (10,"Shura","Oro","Excálubur","Capricornio");
+ConstructoresObjeto z12 = new ConstructoresObjeto (11,"Camus","Oro","Polvo de Diamantes","Acuario");
+ConstructoresObjeto z13 = new ConstructoresObjeto (12,"Afrodita","Oro","","Picis");
+
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("           Zodiaco          Constructor con Parámetros"                                 );
+System.out.println("---------------------------------------------------------------------------------------");
+
+System.out.println("Número de Casa:         "   +z2.casa);
+System.out.println("Nombre del Caballero:   "   +z2.nombre);
+System.out.println("Tipo de Armadura:       "   +z2.armadura);
+System.out.println("Sus Habilidades:        "   +z2.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z2.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z3.casa);
+System.out.println("Nombre del Caballero:   "   +z3.nombre);
+System.out.println("Tipo de Armadura:       "   +z3.armadura);
+System.out.println("Sus Habilidades:        "   +z3.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z3.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z4.casa);
+System.out.println("Nombre del Caballero:   "   +z4.nombre);
+System.out.println("Tipo de Armadura:       "   +z4.armadura);
+System.out.println("Sus Habilidades:        "   +z4.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z4.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z5.casa);
+System.out.println("Nombre del Caballero:   "   +z5.nombre);
+System.out.println("Tipo de Armadura:       "   +z5.armadura);
+System.out.println("Sus Habilidades:        "   +z5.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z5.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z6.casa);
+System.out.println("Nombre del Caballero:   "   +z6.nombre);
+System.out.println("Tipo de Armadura:       "   +z6.armadura);
+System.out.println("Sus Habilidades:        "   +z6.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z6.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z7.casa);
+System.out.println("Nombre del Caballero:   "   +z7.nombre);
+System.out.println("Tipo de Armadura:       "   +z7.armadura);
+System.out.println("Sus Habilidades:        "   +z7.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z7.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z8.casa);
+System.out.println("Nombre del Caballero:   "   +z8.nombre);
+System.out.println("Tipo de Armadura:       "   +z8.armadura);
+System.out.println("Sus Habilidades:        "   +z8.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z8.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z9.casa);
+System.out.println("Nombre del Caballero:   "   +z9.nombre);
+System.out.println("Tipo de Armadura:       "   +z9.armadura);
+System.out.println("Sus Habilidades:        "   +z9.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z9.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z10.casa);
+System.out.println("Nombre del Caballero:   "   +z10.nombre);
+System.out.println("Tipo de Armadura:       "   +z10.armadura);
+System.out.println("Sus Habilidades:        "   +z10.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z10.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z11.casa);
+System.out.println("Nombre del Caballero:   "   +z11.nombre);
+System.out.println("Tipo de Armadura:       "   +z11.armadura);
+System.out.println("Sus Habilidades:        "   +z11.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z11.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+System.out.println("Número de Casa:         "   +z12.casa);
+System.out.println("Nombre del Caballero:   "   +z12.nombre);
+System.out.println("Tipo de Armadura:       "   +z12.armadura);
+System.out.println("Sus Habilidades:        "   +z12.habilidad);
+System.out.println("Signo del Zodiaco:      "   +z12.zodiaco);
+System.out.println("---------------------------------------------------------------------------------------");
+
+
+
+    }
+    
+}
